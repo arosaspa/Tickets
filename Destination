@@ -1,0 +1,22 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class Destination {
+
+    public void destiny() {
+        String destination = """
+        ----------------------- Selection your Destiny ---------------------
+        | Option |    Destiny    | Time Out | Platform | Time In | Platform |
+        |   1    | Florianapolis |  18:30   |    C2    |  11:45  |    A1    |
+        |   2    |    Curitiba   |  20:45   |    B1    |  10:30  |    A2    | 
+                """;
+
+        System.out.println(destination);
+
+
+        // System.out.println("Your destiny is for: " + destiny_final);
+
+
+    }
+}
