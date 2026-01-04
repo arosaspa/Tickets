@@ -1,0 +1,32 @@
+package org.example;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+        String welcome = """
+                \n***** Welcome to the API of Tickets ******
+                *********** Sao Paulo - Brazil ***********
+                ******************************************
+                """;
+
+        System.out.println(welcome);
+
+
+        // Customer
+        Customer name = new Customer();
+        name.customer();
+
+        // Connection with the class Destination
+        Destination destination = new Destination();
+        destination.destiny();
+
+        // Connection with the class Selection
+        Selection selection = new Selection();
+        selection.selection();
+
+
+
+    }
+}
