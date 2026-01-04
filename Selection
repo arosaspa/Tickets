@@ -1,0 +1,37 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class Selection {
+
+    static void selection() {
+
+        System.out.println("What is your destiny for travel: ");
+        Scanner intro_destiny = new Scanner(System.in);
+        int destiny_final = intro_destiny.nextInt();
+
+        switch (destiny_final)  {
+
+            case 1:
+                System.out.println("Your destiny is for Florianapolis");
+                System.out.println("How many tickets for your travel ? ");
+                Scanner ticket_Florianapolis = new Scanner(System.in);
+                int quantity_ticket = ticket_Florianapolis.nextInt();
+                double ticket_price = 300.00;
+                System.out.println("The total value of your tickets is: " + (quantity_ticket * ticket_price));
+                break;
+
+            case 2:
+                System.out.println("Your destiny is for Curitiba");
+                break;
+            default:
+                System.out.println("Incorrect!!!");
+        }
+
+
+
+
+
+    }
+
+}
